@@ -16,11 +16,11 @@ print(art.logo)
 score = 0
 
 #Random number to pick account A
-numA = random.randint(1,50)
+numA = random.randint(0,49)
 
 while True:
     #Random number to pick account B
-    numB = random.randint(1,50)
+    numB = random.randint(0,49)
 
     #First account
     print("Compare A: " + accounts.data[numA]['name'] + ", a " + accounts.data[numA]['description'] + " from " 
